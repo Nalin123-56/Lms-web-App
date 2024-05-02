@@ -1,0 +1,49 @@
+.dashboard_container{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-image: url('../../images/background.jpg');
+    background-size: cover;  
+    background-position: center;
+    height: 550px;
+}
+.logi_section{
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 70%;
+    height: auto;
+}
+.department_name{
+    width: max-content;
+    margin:  0 auto;
+    margin-top: 5%;
+}
+.department{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: inter;
+}
+
+.department {
+    font-size: 3rem;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(#f86605, #c47d13);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(#3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}

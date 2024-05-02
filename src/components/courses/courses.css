@@ -1,0 +1,52 @@
+.cource_container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 500px;
+    overflow-y: auto;
+    margin-top: 2%;
+}
+.cource_container::-webkit-scrollbar{
+    display: none;
+}
+.cource_page{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: inter;
+}
+.fundermentals{
+    background-color: rgb(172, 172, 172);
+    width: 47%;
+    font-family: inter;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 15px;
+}
+.sem{
+    text-align: center;
+    font-size: 18px;
+}
+.subject{
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    padding: 2% 2% 2% 2%;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color: rgb(0, 0, 0);
+}
+
+.subject:hover{
+    transform: scale(1.05);
+}
+.subject:hover{
+    background-color: black;
+    color: white;
+}
+

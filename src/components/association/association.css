@@ -1,0 +1,55 @@
+.asso_cont{
+width: 100%;
+margin: 0 auto;
+margin-top: 2%;
+background-image: url('../../images/background.jpg');
+background-size: cover;  
+background-position: center;
+height: 550px;
+}
+.as_logo{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    margin:  0 auto;
+}
+.asso_logo{
+    width: 50%;
+    height: auto;
+    border-radius: 30px;
+}
+.ass_page{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-family: inter;
+}
+.as_name{
+    width: max-content;
+    margin:  0 auto;
+    margin-top: 3%;
+}
+
+
+.ass {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: inter;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(#003380, #00FF00);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(#3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
